@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.height{
+    height: 600px;
+}
+.position-sm{
+    position: absolute;
+    left: 39rem;
+    top: 36rem;
+    width: 10rem;
+    height: 15rem;
+}
+.position-md{
+    position: absolute;
+    left: 38rem;
+    top: 35rem;
+    width: 12rem;
+    height: 16rem;
+}
+.position-lg{
+    position: absolute;
+    left: 37rem;
+    top: 34rem;
+    width: 14rem;
+    height: 17rem;
+}
+.input{
+    display: flex;
+    justify-content: flex-start;
+}
