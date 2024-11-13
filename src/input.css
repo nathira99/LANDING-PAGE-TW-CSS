@@ -3,30 +3,49 @@
 @tailwind utilities;
 
 .height{
-    height: 600px;
+    height: 650px;
 }
 .position-sm{
     position: absolute;
-    left: 39rem;
+    left: 41rem;
     top: 36rem;
     width: 10rem;
     height: 15rem;
 }
 .position-md{
     position: absolute;
-    left: 38rem;
+    left: 40rem;
     top: 35rem;
     width: 12rem;
     height: 16rem;
 }
 .position-lg{
     position: absolute;
-    left: 37rem;
+    left: 39rem;
     top: 34rem;
     width: 14rem;
     height: 17rem;
 }
 .input{
     display: flex;
-    justify-content: flex-start;
+}
+.spotify{
+        width: 140px;
+        height: 43px;
+}
+.amazon{
+    width: 120px;
+    height: 38px;
+}
+.logitec{
+    width: 120px;
+    height: 37px;
+}
+.cisco{
+    width: 120px;
+    height: 69px;
+}
+.spotify{
+    width: 140px;
+    height: 43px;
 }
