@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+    margin: 0;
+    padding: 0;
+}
 .height{
     height: 650px;
 }
@@ -64,6 +68,4 @@
     top:3rem;
     width:10rem; 
     height:17rem;
-}
-.banner-t{
 }
