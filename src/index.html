@@ -12,67 +12,68 @@
     <section class="flex flex-row w-full items-center flex-wrap shadow-md font-sans justify-between">
     <!--logo-->
         <div class="w-1/5">
-            <img src="./assets/Askmeidentity 2.png" alt="logo" class="h-20 w-fit">
+            <img src="./assets/Askmeidentity 2.png" alt="logo" class="max-md:w-20 max-md:h-10 w-fit">
         </div>
         <!--menu-->
         <div class="flex flex-row justify-evenly max-md:hidden p-10">
-            <p class="font-bold cursor-pointer pr-5">Home</p>
-            <p class="font-bold cursor-pointer pr-5">About</p>
-            <p class="font-bold cursor-pointer pr-5">Courses</p>
-            <p class="font-bold cursor-pointer">Contact</p>
+            <a class="font-bold cursor-pointer pr-5 hover:text-blue-700">Home</a>
+            <a class="font-bold cursor-pointer pr-5 hover:text-blue-700">About</a>
+            <a class="font-bold cursor-pointer pr-5 hover:text-blue-700">Courses</a>
+            <a class="font-bold cursor-pointer hover:text-blue-700">Contact</a>
         </div>
         <!--icons-->
-        <section class="flex flex-row justify-evenly p-5 max-lg:hidden relative">
+        <div class="flex flex-row justify-evenly p-5 max-lg:hidden relative">
             <img src="./assets/Vector.png" alt="..." class="h-6 m-2">
             <img src="./assets/span.widget_cart_counter_number.png" alt="" class="h-3 absolute left-1/4 top-6">
             <img src="./assets/Icon.png" alt="" class="h-7 m-2">
             <img src="./assets/Icon (1).png" alt="" class="h-7 m-2">
-        </section>
+        </div>
         <!--log-->
         <div class="flex justify-end items-center p-4">
-            <u class="p-4">Login</u>
+            <p class="p-4 hover:underline">Login</p>
             <button class= "bg-gradient-to-r from-blue-700 to-purple-700 text-white pr-3 pl-3 pt-1.5 pb-1.5 rounded cursor-pointer">Signup</button>
         </div>
     </section>
     <!--main-->
-    <section class="flex flex-row w-full">
-    <img src="./assets/1524_BACKGROUND 3.png" alt="" class="relative w-full height">
+    <div class="flex flex-row max-md:flex-col max-md:flex-wrap w-full p-2 bg-gradient-to-r from-purple-700 to-blue-800">
         <!--content-->
-        <div class="w-2/5 absolute flex flex-col align-middle text-white">
-            <p class="text-l pt-20 pl-20 font-semibold">SUCCESFULL COACHES ARE VISIONARIES</p>
-            <p class="text-6xl font-bold py-5 pl-20 max-xl:text-4xl max-2xl:text-6xl">Good <span class="text-blue-900">coaching</span> is good teaching & nothing else.</p>
-            <div class="flex flex-row pl-20 py-5 items-center">
-            <button class="border rounded w-max p-2 max-xl:text-xs ">View Courses</button>
-            <strong class="ml-10 max-xl:text-xs">Get Free Consultation</strong>
+        <div class="w-2/5 flex flex-col align-middle pl-20 max-xl:px-5 text-white max-md:w-full">
+            <p class="text-l pt-20 max-xl:pt-10 font-semibold max-md:text-xs">SUCCESFULL COACHES ARE VISIONARIES</p>
+            <p class="text-6xl font-bold py-5 max-md:text-xl max-lg:text-2xl max-xl:text-3xl">Good <span class="text-blue-700">coaching</span> is good teaching & nothing else.</p>
+            <div class="flex flex-row justify-between py-5 items-center max-md:w-1/2">
+            <button class="border rounded cursor-pointer z-10  p-2 max-xl:text-xs">View Courses</button>
+            <strong class="ml-10 max-xl:ml-0 max-xl:my-2  max-2xl:px-5 max-xl:text-xs cursor-pointer">Get Free Consultation</strong>
             </div>
-            <div class="w-full flex relative py-5 pl-20 justify-end">
+            <div class="w-full flex relative py-5 justify-end">
             <input type="input" placeholder="What do you want to learn today?" class="text-gray-900 rounded-lg p-3 w-full">
             <div class="flex flex-row absolute m-1">
-            <button class="bg-gradient-to-r from-purple-800 to-violet-800 p-2 rounded cursor-pointer w-28 relative">
-                  <img src="./assets/Icon (2).png" alt="..." class="absolute max-lg:hidden ">Search</button>
+            <button class="bg-gradient-to-r from-purple-800 to-violet-800 p-2 pl-8 max-lg:pl-1 rounded cursor-pointer w-max relative">
+                  <img src="./assets/Icon (2).png" alt="..." class="absolute left-2 max-lg:hidden ">Search</button>
                 </div>
         </div>
         </div>
         <!--review-->
-        <div>
-        <div class="absolute flex flex-row text-white left-2/4 top-48">
+        <div class="w-2/6 max-md:w-full">
+        <div class=" flex flex-row flex-wrap-col text-white left-2/4 m-20 max-xl:mt-10 max-2xl:mx-5">
             <img src="./assets/Group 1000014970.png" alt="" class="h-28 w-auto p-3">
             <div>
-            <h5 class="font-bold" >Shyam</h5>
-            <p class="w-60 text-sm font-semibold">In a coaching role, you ask the questions and rely more on your 
+            <h5 class="font-bold " >Shyam</h5>
+            <p class="text-sm font-semibold max-md:text-xs  max-md:font-normal">In a coaching role, you ask the questions and rely more on your 
             staff, who become the experts, to provide the information.</p>
             <p class="text-blue-600 text-sm">4.9</p>
             </div>
         </div>
         <!--image-->
-        <img src="./assets/Ellipse 8324.png" alt="" class="-right-28 -top-40 absolute max-xl:hidden">
-        <img src="./assets/brunette-woman-hugging-laptop_1-removebg-preview.png" alt="woman" class="right-10 absolute max-lg:hidden">
-        <img src="./assets/Ellipse 8321.png" alt="" class="left-0 top-40 absolute max-lg:hidden">
+            <img src="./assets/Ellipse 8324.png" alt="" class="absolute right-0 top-32 bg-ellipse max-xl:hidden">
+        <img src="./assets/Ellipse 8321.png" alt="" class="left-0 bottom-52 absolute bg-sm-ellipse max-md:hidden">
         <img src="./assets/Rectangle 8673.png" alt="1" class="position-sm max-2xl:hidden">
         <img src="./assets/Rectangle 8675.png" alt="2" class="position-md max-2xl:hidden">
         <img src="./assets/Rectangle 8674.png" alt="3" class="position-lg max-2xl:hidden">
+    </div>
+    <div class="z-10 left-1/2 w-2/6">
+      <img src="./assets/brunette-woman-hugging-laptop_1-removebg-preview.png" alt="woman" class="max-md:hidden">
       </div>
-    </section>
+</div>
     <!--company-->
     <div class="flex relative items-center max-md:hidden">
         <img src="./assets/Rectangle 8678.png" alt="" class="w-full">
@@ -89,8 +90,8 @@
       <div class="relative bg-gray-200 w-full">
         <img src="./assets/Ellipse 118.png" alt="" class="absolute left-10 top-10">
         <div>
-        <p class="text-3xl font-bold  justify-center flex pt-20">Featured<span class="text-blue-600">&nbsp;Course</span></p>
-        <p class="text-lg font-semibold flex justify-center py-5">THE FEATURE COURSES ARE WE INVENTED OUR TEACHING PART</p>
+        <p class="text-3xl font-bold  justify-center text-center flex pt-20 px-2">Featured<span class="text-blue-600">&nbsp;Course</span></p>
+        <p class="text-lg font-semibold flex justify-center text-center py-5 px-2">THE FEATURE COURSES ARE WE INVENTED OUR TEACHING PART</p>
     </div>
         <div class="flex flex-row flex-wrap justify-center px-1 py-5">
             <div class="shadow-md rounded-lg m-2">
@@ -194,27 +195,27 @@
       </div>
     </div>
     <!--why learn-->
-    <div class=" bg-gradient-to-r from-violet-400 to-violet-800 w-full relative p-5">
-      <div class="flex flex-col p-10 text-white leading-loose">
-        <h3 class="text-3xl font-bold flex justify-center p-2">Why <span class="text-blue-800">&nbsp;learn&nbsp;</span>with our courses?</h3>
-        <p class="flex justify-center text-center font-semibold text-lg leading-normal">We are providing the best courses and top classes.And<br>extraordinery placement training.....</p>
+    <div class=" bg-gradient-to-r from-violet-400 to-violet-800 w-full relative p-5 max-lg:p-2">
+      <div class="flex flex-col flex-wrap p-10 text-white leading-loose max-lg:p-2">
+        <h3 class="text-3xl font-bold flex justify-center p-2 max-lg:text-xl">Why <span class="text-blue-800">&nbsp;learn&nbsp;</span> with our courses?</h3>
+        <p class="flex justify-center text-center font-semibold text-lg leading-normal max-lg:text-sm">We are providing the best courses and top classes.And<br>extraordinery placement training.....</p>
       </div>
-      <div class="flex flex-row flex-wrap-row justify-center text-white m-10 my-5">
-      <div class="justify-items-center p-5 ">
-        <img src="./assets/Icon (3).png" alt="1" class="p-5 w-20  h-20">
-        <p class="font-bold text-center max-xl:text-xs">01.Learn</p>
+      <div class="flex flex-row flex-wrap justify-center text-white m-10 my-5 max-lg:m-2">
+      <div class="justify-items-center p-5 max-lg:p-2">
+        <img src="./assets/Icon (3).png" alt="1" class="p-5 w-20 h-20">
+        <p class="font-bold text-center max-md:text-xs">01.Learn</p>
         <p class="text-center p-3 max-xl:text-xs">Learn continually. There is always<br>“one more thing” to learn.</p>
       </div>
-      <img src="./assets/Line 15.png" alt="line1" class="p-10 h-64 max-lg:h-64">
-      <div class="justify-items-center p-5">
+      <img src="./assets/Line 15.png" alt="line1" class="p-10 max-lg:p-2 h-64 max-lg:h-64 max-md:hidden">
+      <div class="justify-items-center p-5 max-lg:p-2">
         <img src="./assets/Icon (4).png" alt="2" class="p-5 w-20 h-20">
-        <p class="font-bold text-center max-xl:text-xs">02. Graduate</p>
+        <p class="font-bold text-center max-md:text-xs">02. Graduate</p>
         <p class="text-center p-3 max-xl:text-xs">Be bold,be courageous,be your best.</p>
       </div>
-      <img src="./assets/Line 15.png" alt="line2" class="p-10 h-64 max-lg:h-64">
-      <div class="justify-items-center p-5">
+      <img src="./assets/Line 15.png" alt="line2" class="p-10 max-lg:p-2 h-64 max-lg:h-64 max-md:hidden">
+      <div class="justify-items-center p-5 max-lg:p-2">
         <img src="./assets/Icon (5).png" alt="3" class="p-5 w-20 h-20">
-        <p class="font-bold text-center max-xl:text-xs">03. Work</p>
+        <p class="font-bold text-center max-md:text-xs">03. Work</p>
         <p class="text-center p-3 max-xl:text-xs">Great companies are built in the office,<br>with hard work put in by team.</p>
       </div>
       <img src="./assets/Ellipse 8321.png" alt="" class="absolute left-0 top-0">
@@ -261,34 +262,31 @@
       </div>
 </div>
     <!--subscribe-->
-    <div class="m-10 text-white">
-        <div class="flex justify-center relative m-10">
-            <img src="./assets/Bg.png" alt="" class="h-96">
-            <img src="./assets/Polygon 8.png" alt="" class="absolute left-1/2 top-3 w-16 h-16">
-            <div class="absolute flex flex-col justify-center p-10 m-10">
-                <img src="./assets/Ellipse 168.png" alt="" class="h-12 w-12 absolute -left-44 top-8 max-lg:hidden">
-                <img src="./assets/Ellipse 167.png" alt="" class="h-12 w-12 absolute -left-16 top-32 max-lg:hidden">
-                <img src="./assets/Ellipse 166.png" alt="" class="h-12 w-12 absolute -left-40 top-60 max-lg:hidden">
-                <p class="font-bold text-4xl text-center">Subscribe For Get Update<br>Every New Courses</p><br>
-                <p class="text-center">20k+ students daily learn with Eduvi. Subscribe for new courses.</p><br>
-                <img src="./assets/Ellipse 166 (1).png" alt="" class="h-12 w-12 absolute -right-44 top-8 max-lg:hidden">
-                <img src="./assets/Ellipse 167 (1).png" alt="" class="h-12 w-12 absolute -right-16 top-32 max-lg:hidden">
-                <img src="./assets/Ellipse 168 (1).png" alt="" class="h-12 w-12 absolute -right-40 top-60 max-lg:hidden">
-                <div class="relative flex justify-end">
+    <div class="m-32 text-white bg-gradient-to-r from-blue-300 via-purple-600 to-pink-500 rounded-2xl max-md:m-2">
+        <div class="flex flex-col justify-center z-10 relative m-10 p-5  max-md:p-1">
+            <p class="font-bold text-4xl text-center py-5  max-md:text-lg">Subscribe For Get Update<br>Every New Courses</p>
+            <p class="text-center  max-md:hidden">20k+ students daily learn with Eduvi. Subscribe for new courses.</p>
+            <div class="relative flex justify-end py-5  md:mx-20 lg:mx-32 sm:mx-5">
                 <input type="input" placeholder="enter your email" class="opacity-70 rounded-lg p-3 mt-5 w-full">
                 <div class="absolute">
-                <button class="bg-blue-900 text-white p-3 mt-5 rounded-r-lg left-full">Subscribe</button>
+                <button class="bg-blue-900 text-white p-3 mt-5 rounded-r-lg max-lg:px-0 max-lg:w-6 max-lg:overflow-hidden max-md:px-0 max-md:w-6 max-md:overflow-hidden">Subscribe</button>
             </div>
-            <img src="./assets/Polygon 9.png" alt="" class="absolute -left-80 -bottom-20 w-16 h-16">
-        </div>
+                <img src="./assets/Polygon 8.png" alt="" class="absolute left-1/2 -top-36 z-0 w-16 h-16 max-lg:hidden ">
+                <img src="./assets/Ellipse 168.png" alt="" class="h-12 w-12 absolute -left-40 -top-40 max-lg:hidden">
+                <img src="./assets/Ellipse 167.png" alt="" class="h-12 w-12 absolute -left-16 -top-16 max-lg:hidden">
+                <img src="./assets/Ellipse 166.png" alt="" class="h-12 w-12 absolute -left-36 top-20 max-lg:hidden">
+                <img src="./assets/Ellipse 166 (1).png" alt="" class="h-12 w-12 absolute -right-40 -top-40 max-lg:hidden">
+                <img src="./assets/Ellipse 167 (1).png" alt="" class="h-12 w-12 absolute -right-16 -top-16 max-lg:hidden">
+                <img src="./assets/Ellipse 168 (1).png" alt="" class="h-12 w-12 absolute -right-36 top-20 max-lg:hidden">
+                <img src="./assets/Polygon 9.png" alt="" class="absolute -left-80 -bottom-20 w-16 h-16 max-lg:hidden">
     </div>
     </div>
     <div class="flex items-baseline justify-end" >    
-        <img src="./assets/Polygon 7.png" alt="" class="flex absolute mr-10  w-16 h-16"><!--right-20-->
+        <img src="./assets/Polygon 7.png" alt="" class="flex absolute mr-10  w-16 h-16 max-lg:hidden"><!--right-20-->
     </div>
     </div>
     <!--video-->
-    <div class="relative mt-40 m-20 flex justify-center">
+    <div class="relative mt-20 m-20 flex justify-center max-md:hidden">
         <img src="./assets/Rectangle 8691.png" alt="" class="">
         <div class="absolute self-center">
             <img src="./assets/Group 512857.png" alt="play" class="w-52">
@@ -298,29 +296,29 @@
     </div>
 </div>
         <!--testimonials-->
-    <div class="flex flex-col">
+    <div class="flex flex-col h-max max-md:py-5">
         <img src="./assets/Ellipse 1217.png" alt="" class="absolute ">
         <h1 class="text-3xl font-bold text-blue-950 flex justify-center p-2">Testimonials</h1>
         <p class="text-lg font-semibold text-stone-800 flex justify-center py-5">What our student say about us</p>
         
-        <div class="relative flex justify-evenly mt-32 mb-20">
-        <div class="shadow-lg z-0 bg-white w-fit flex flex-col items-center max-2xl:hidden">
+        <div class="relative flex justify-around mt-32 mb-20">
+        <div class="shadow-lg z-0 bg-white w-fit flex flex-col items-center opacity-70 max-xl:hidden">
             <img src="./assets/th (1) 6.png" alt="" class="absolute -top-10">
             <p class="px-10 pt-10 font-semibold text-sm">Such an amazing traniner and easily understand the entire.<br>syllabus, and the guidence will be super and good to the way<br>of explaning.</p>
             <img src="./assets/Group 512877.png" alt="" class="self-start px-10 py-5">
         </div>
         <div class="absolute z-10 shadow-lg bg-white w-fit flex flex-col items-center -top-12">
             <img src="./assets/th (1) 6.png" alt="" class="absolute -top-10">
-            <p class="px-10 pt-10 font-semibold text-sm">Such an amazing traniner and easily understand the entire.<br>syllabus, and the guidence will be super and good to the way<br>of explaning.</p>
+            <p class="px-10 pt-10 font-semibold text-sm max-lg:px-2 max-md:pt-6 max-lg:pt-8 max-md:text-xs">Such an amazing traniner and easily understand the entire.<br>syllabus, and the guidence will be super and good to the way<br>of explaning.</p>
             <img src="./assets/Group 512877.png" alt="" class="self-start px-10 py-5">
         </div>
-        <div class="shadow-lg z-0 bg-white w-fit flex flex-col items-center max-2xl:hidden">
+        <div class="shadow-lg z-0 bg-white w-fit flex flex-col items-center opacity-70 max-xl:hidden">
             <img src="./assets/th (1) 6.png" alt="" class="absolute -top-10">
             <p class="px-10 pt-10 font-semibold text-sm">Such an amazing traniner and easily understand the entire.<br>syllabus, and the guidence will be super and good to the way<br>of explaning.</p>
             <img src="./assets/Group 512877.png" alt="" class="self-start px-10 py-5">
         </div>
     </div>
-    <div class="flex justify-end">
+    <div class="flex justify-end max-md:hidden">
         <img src="./assets/Back Arrow.png" alt="" class="cursor-pointer">
         <img src="./assets/Back Arrow (1).png" alt="" class="cursor-pointer">
     </div>
@@ -328,36 +326,42 @@
     
 </div>
     <!--footer-->
-    <div class="flex flex-col justify-center bg-gradient-to-r from-violet-600 via-violet-500 to-blue-500">
-    <div class="flex flex-row justify-evenly w-full align-middle my-10">
+    <div class="flex flex-col justify-center bg-gradient-to-r from-violet-600 via-violet-500 to-blue-500 w-full">
+    <div class="flex flex-row flex-wrap justify-around w-full align-middle my-10 p-2 max-md:justify-normal">
         <!--address-->
         <div class="flex flex-col leading-loose">
             <p class="font-bold text-2xl">Connect</p>
-            <img src="./assets/Askmeidentity_2-removebg-preview.png" alt="" class="">
-            <p class="font-semibold">Sri Jagannath Nivas,8-1-164/345/A/1,<br>
+            <img src="./assets/Askmeidentity_2-removebg-preview.png" alt="" class="max-sm:w-44">
+            <p class="font-semibold  max-md:font-normal max-md:text-sm">Sri Jagannath Nivas,8-1-164/345/A/1,<br>
                 Pragati Colony, Mailardevpally, Nawab<br>
                 Saheb Kunta, Hyd, 500005</p>
         </div>
+        <div class="flex max-xl:py-2 max-md:flex-col max-sm:py-2 max-md:font-normal py-5">
         <!--classes-->
-        <div class="flex flex-col leading-10">
-            <p class="font-bold text-2xl">Classes</p>
+        <div class="flex px-10 flex-col leading-10 max-lg:px-5 max-sm:px-1">
+            <p class="font-bold text-2xl max-md:font-bold max-md:text-lg hover:underline">Classes</p>
+            <div class="max-md:hidden text-nowrap">
             <p class="font-semibold">Classroom courses</p>
             <p class="font-semibold">Virtual classroom courses</p>
             <p class="font-semibold">E-learning courses</p>
             <p class="font-semibold">Offline courses</p>
         </div>
+    </div>
         <!--community-->
-        <div class="flex flex-col leading-10">
-            <p class="font-bold text-2xl">Community</p>
+        <div class="flex px-10 flex-col leading-10 max-lg:px-5 max-sm:px-1">
+            <p class="font-bold text-2xl max-md:font-bold max-md:text-lg hover:underline">Community</p>
+            <div class="max-md:hidden">
             <p class="font-semibold">Learners</p>
             <p class="font-semibold">Partners</p>
             <p class="font-semibold">Developers</p>
             <p class="font-semibold">Transaction</p>
             <p class="font-semibold">Blog</p>
         </div>
+        </div>
         <!--quick links-->
-        <div class="flex flex-col  leading-10">
-            <p class="font-bold text-2xl">Quick links</p>
+        <div class="flex flex-col px-10 leading-10 max-lg:px-5 max-sm:px-1">
+            <p class="font-bold text-2xl max-md:font-bold max-md:text-lg hover:underline">Quick links</p>
+            <div class="max-md:hidden text-nowrap">
             <p class="font-semibold">Home</p>
             <p class="font-semibold">Professional Education</p>
             <p class="font-semibold">Courses</p>
@@ -365,9 +369,11 @@
             <p class="font-semibold">Testimonial</p>
             <p class="font-semibold">Programs</p>
         </div>
+        </div>
         <!--more-->
-        <div class="flex flex-col  leading-10">
-            <p class="font-bold text-2xl">More</p>
+        <div class="flex flex-col px-10 leading-10 max-lg:px-5 max-sm:px-1">
+            <p class="font-bold text-2xl max-md:font-bold max-md:text-lg hover:underline">More</p>
+            <div class="max-md:hidden">
             <p class="font-semibold">Press</p>
             <p class="font-semibold">Investors</p>
             <p class="font-semibold">Terms</p>
@@ -375,21 +381,25 @@
             <p class="font-semibold">Help</p>
             <p class="font-semibold">Contact</p>
         </div>
-    </div>
-    <div class="flex justify-center self-end bg-opacity-50 bg-indigo-700 w-full">
-        <img src="./assets/Ellipse 1227.png" alt="" class="p-3">
-        <img src="./assets/Ellipse 1227.png" alt="" class="py-3 pr-3">
-        <img src="./assets/Ellipse 1227.png" alt="" class="py-3 pr-3">
-        <img src="./assets/Ellipse 1227.png" alt="" class="py-3">
-        <img src="./assets/Ellipse 1227.png" alt="" class="p-3">
-        <div class="absolute flex justify-center self-end w-full">
-            <img src="./assets/Instagram.png" alt="" class="pr-10 pl-9 pt-6 pb-6">
-            <img src="./assets/WhatsApp.png" alt="" class="pr-9 py-6">
-            <img src="./assets/Twitter.png" alt="" class="pr-9 py-6">
-            <img src="./assets/LinkedIn.png" alt="" class="pr-10 py-6">
-            <img src="./assets/YouTube.png" alt="" class="pr-10 py-6">
+        </div>
         </div>
     </div>
+    <div class="flex justify-center self-end bg-opacity-50 bg-indigo-700 w-full">
+        <img src="./assets/Ellipse 1227.png" alt="" class="p-3 max-md:hidden">
+        <img src="./assets/Ellipse 1227.png" alt="" class="py-3 pr-3 max-md:hidden">
+        <img src="./assets/Ellipse 1227.png" alt="" class="py-3 pr-3 max-md:hidden">
+        <img src="./assets/Ellipse 1227.png" alt="" class="py-3 max-md:hidden">
+        <img src="./assets/Ellipse 1227.png" alt="" class="p-3 max-md:hidden">
+        <!--apps-->
+        <div class="absolute flex justify-center self-end w-full">
+            <img src="./assets/Instagram.png" alt="" class="pr-10 pl-9 pt-6 pb-6  max-md:p-1">
+            <img src="./assets/WhatsApp.png" alt="" class="pr-9 py-6 max-md:p-1">
+            <img src="./assets/Twitter.png" alt="" class="pr-9 py-6 max-md:p-1">
+            <img src="./assets/LinkedIn.png" alt="" class="pr-10 py-6 max-md:p-1">
+            <img src="./assets/YouTube.png" alt="" class="pr-10 py-6 max-md:p-1">
+        </div>
+    </div>
+    <!--copyright-->
     <div class="flex justify-center self-end bg-opacity-50 bg-indigo-600 w-full">
         <p>Copyright @ 2023 askmeidentity. All Rights Reserved</p>
 

@@ -9,6 +9,14 @@
 .height{
     height: 650px;
 }
+.bg-ellipse{
+    height: 700px;
+    width: 700px;
+}
+.bg-sm-ellipse{
+    height: 300px;
+    width: 100px;
+}
 .position-sm{
     position: absolute;
     left: 41rem;
